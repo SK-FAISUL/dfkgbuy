@@ -1,0 +1,258 @@
+/* Mobail Version  */
+@media(max-width:455px){
+    .global-heading{
+        font-size: 23px;
+        margin-top: 25px;
+    }
+    /* navigation part  */
+    .icon-part{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+    .menu-part{
+        width: 80%;
+        margin-top: 10px;
+    }
+    .menu-part li a{
+        font-size: 10px;
+    }
+    .search-part{
+        width: 20%;
+        margin:0px;
+        margin-top: 15px;
+        padding-left: 5px;
+    }
+    .title{
+        width: 100%;
+        height: 230px;
+    }
+    .title>.global-heading{
+        padding-top: 60px ;
+        padding-left: 20px;
+        font-size: 30px;
+    }
+    .title>.pragraph{
+        width: 80%;
+        padding-left: 20px;
+        font-size: 10px;
+    }
+    .title a button{
+        width: 30%;
+        margin: 0px;
+        margin-left: 20px;
+        font-size: 15px;
+        padding: 5px;
+    }
+    /* tour part */
+    #tour{
+        width: 100%;
+        height: auto;
+        background-attachment: unset;
+    }
+    .tour-writting-part{
+        width: 100%;
+    }
+    .tour-writting-part>.global-heading{
+        margin-top: 20px;
+    }
+    .tour-writting-part>.pragraph{
+        width: 100%;
+        margin:15px auto;
+    }
+    .box-part{
+        margin:15px;
+        height: 170px;
+    }
+    .box-part>.global-heading{
+        margin-top: 8px;
+        font-size: 10px;
+    }
+    .box-part>.pragraph{
+        width: 100%;
+        margin-top: 5px;
+        font-size: 8px;
+    }
+    /* price part  */
+    #price{
+        background-attachment: unset;
+
+    }
+    .price-writting-part{
+        width: 100%
+    }
+    .price-writting-part>.pragraph{
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .price-box{
+        width: 25%;
+        margin:20px 0px;
+        margin-left: 25px;
+        height: auto;
+        padding: 0;
+        padding-top: 10px;
+    }
+    .price-box img{
+        width: 40px;
+    }
+    .price-box>.global-heading{
+        margin-top: 8px;
+        font-size: 13px;
+    }
+    .price-box>.pragraph{
+        width: 100%;
+        margin: auto;
+        padding-top: 5PX;
+        font-size: 8px;
+    }
+    .price-box a button{
+        font-size: 10px;
+        padding: 5px;
+    }
+    /* review part  */
+    .review-writting-part{
+        width: 50%;
+        float: left;
+        height: auto;
+    }
+    .review-writting-part>.global-heading{
+        padding-top: 20%;
+        font-size: 15px;
+        padding-left: 10%;
+    }
+    .review-writting-part>.pragraph{
+        font-size: 8px;
+        width: 100%;
+        padding-left: 10%;
+    }
+    .review-writting-part a button{
+        width: 60%;
+        margin: 0;
+        margin-left: 10%;
+        margin-top: 10px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    /* statics part  */
+    .statistic-writting-part{
+        width: 100%;
+    }
+    .statistic-box-part{
+        font-size: 10px;
+        margin: 10%;
+        margin-top: 0px;
+    }
+    .about-part>.pragraph{
+        width: 100%;
+        font-size: 10px;
+    }
+    #subscribe{
+        background-attachment: unset;
+    }
+    .subscrib-part{
+        width: 100%;
+    }
+    .subscrib-part>.pragraph{
+        width: 100%;
+        font-size: 15px;
+    }
+    #email{
+        width: 60%;
+        padding: 9px;
+        font-size: 15px;
+    }
+    .input button{
+        width: 30%;
+        padding: 11px;
+        font-size: 15px;
+    }
+    /* footer part  */
+    .musicology-footer{
+        padding: 10px;
+    }
+    .musicology-ditails{
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+    .musicology-ditails>.global-heading{
+        font-size: 15px;
+    }
+    .musicology-ditails>.pragraph{
+        font-size: 5px;
+    }
+    .musicology-ditails a i{
+        width: 24px;
+    }
+
+    .musicology-about{
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+    .musicology-about>.global-heading{
+        font-size: 15px;
+    }
+    .musicology-about a{
+        font-size: 5px;
+    }
+    .musicology-survice{
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+    .musicology-survice>.global-heading{
+        font-size: 15px;
+    }
+    .musicology-survice a{
+        font-size: 5px;
+    }
+    .musicology-other{
+        padding: 5PX;
+        margin-bottom: 20px;
+    }
+    .musicology-other>.global-heading{
+        font-size: 15px;
+    }
+    .musicology-other a{
+        font-size: 5px;
+    }
+
+}
+@media(min-width:456) and (max-width:767px){
+    /* header section  */
+    .icon-part{
+        width:  100%;    
+        text-align: center;
+        display: block;
+    }
+    .menu-part{
+        width:80%;
+        float:left;
+        text-align: end;
+    }
+    
+    .search-part{
+        width: 20%;
+        padding-left: 20PX;
+    }
+    /* tittle section  */
+    .title{
+        width: 100%;
+        height: 260px;
+    }
+    .title>.global-heading{
+       width: 100%;
+       font-size: 20px;
+       
+    }
+    .title>.pragaph{
+       width: 100%;
+       font-size: 5px;
+    }
+    /* tour part  */
+   
+}
+@media(max-width:607px){
+    
+}
